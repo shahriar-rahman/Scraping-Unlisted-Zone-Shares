@@ -44,6 +44,7 @@ relevant information related to the Company such as their names, shares, last tr
 
 
 --------
+![alt text](https://github.com/shahriar-rahman/Unlisted-Zone-Shares-Data-Extraction/blob/main/img/unlisted_shares_page.PNG)
 
 ## Methods used:
 • Scrapy 2.8.0
