@@ -48,7 +48,7 @@ Parse and extract financial information for stock analysis of companies based on
 
 ## ◘ Technical Preliminaries
 ### • Database Specification:
-| Unlisted Shares | Data Type | Description |
+| Attributes | Data Type | Description |
 |--|--|--|
 | Company | text | Indicates the Name of the company. |
 | Lot Size | text | Amount of shares for a lot. |
