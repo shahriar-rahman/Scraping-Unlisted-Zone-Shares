@@ -32,7 +32,7 @@ Parse and extract financial information for stock analysis of companies based on
 ## ◘ Introduction
 
 ### • Background
-**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools, by utilizing Scrapy, to acquire the data that can be found on the aforementioned website and store it inside a database table, using Sqlite3, as well as as other memory-based formats using the Pandas dataframe. 
+**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawling tools, by utilizing Scrapy, to acquire the data that can be found on the aforementioned website and store it inside a database table, using Sqlite3, as well as as other memory-based formats using the Pandas dataframe. 
 
 <br/>
 
