@@ -33,19 +33,23 @@ Parse and extract database for stock analysis of companies based on the [Unliste
     ├── requirements.txt	#Allows reproducing the analysis environment, generated using `pip freeze > requirements.txt` command.    
     │                         			
     ├── unlisted_zone	#Source codes for this project.
+    |
     │    ├── __init__.py	
     │   
     │    ├── scrapy.cfg    #Configuration settings for Scrapy.
     |
-    │    ├── py_utils    #Utilities folder.
+    │    ├── py_utils    #Utilities folder.    
+    |
     |            └── __init__.py	
     |
     |            └── common_utils.py	
     |
     │            └── scraping_utils.py
     │   
-    │    ├── unlisted_zone    #Scrapy project folder.
+    │    ├── unlisted_zone    #Scrapy project folder.    
+    |
     |            └── spiders	
+    |
     |                    └── __init__.py
     |
     |                    └── crawler_bot.py
@@ -59,8 +63,6 @@ Parse and extract database for stock analysis of companies based on the [Unliste
     │            └── settings.py
     │
     └── 
-
-
 --------
 ![alt text](https://github.com/shahriar-rahman/Unlisted-Zone-Shares-Data-Extraction/blob/main/img/unlisted_shares_page.PNG)
 
