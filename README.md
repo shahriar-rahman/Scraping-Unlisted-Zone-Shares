@@ -14,6 +14,7 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
     - [Objectives](#-objectives)
 - [Techncal Preliminaries](#-technical-preliminaries)
     - [Repository Organization](#-repository-organization)
+    - [Scraping Flow](#-scraping-flow)
 - [Requisites](#-requisites)
 - [Technologies](#-technologies)
 - [Packages](#-packages)
@@ -46,7 +47,7 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 
 ## ◘ Technical Preliminaries
 
-### • Repository Organization
+### • Repository Organization:
 ---------------------------------------------------------
     │
     ├── LICENSE
@@ -98,6 +99,12 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
     │
     └── 
 --------
+
+<br/>
+
+### • Scraping Flow:
+![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/flowchart.png)
+Process flow of the scraping process.
 
 <br/><br/>
 
