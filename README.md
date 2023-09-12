@@ -60,18 +60,23 @@ Parse and extract financial information for stock analysis of companies based on
     │
     ├── LICENSE                        
     │ 
-    ├── README.md	#The top-level README for developers using this project.                        
+    ├── README.md	#The top-level README for developers using this project.  
     │ 
-    ├── datasets                                                
+    ├── database    #SQLite3 database files                                                  
     |
-    │   ├── excel	#XLSX format for better visualization.                        
+    │   ├── db_unlisted.db    	                        
     │
-    │   ├── csv	#CSV format.                        
+    │   └── db_unlisted.db.sql                
+    │ 
+    ├── datasets    #Memory Storage using differetn formats                                                 
+    |
+    │   ├── unlisted_df.xlsx    	                        
     │
-    │   └── json	#Json format for effective utilization.                        
+    │   ├── unlisted_df.csv                            
     │
-    ├── files	#Contains various files related to this repository.                        
-    │   
+    │   └── unlisted_df.json                            
+    │
+    ├── files	#Contains various files related to this repository.   
     │
     ├── requirements.txt	#Allows reproducing the analysis environment, generated using `pip freeze > requirements.txt` command.                        
     │                         			
@@ -81,13 +86,21 @@ Parse and extract financial information for stock analysis of companies based on
     │   
     │    ├── scrapy.cfg    #Configuration settings for Scrapy.                        
     |
+    │    ├── sqlite3    #Utilities folder.                            
+    |
+    |            └── __init__.py	                        
+    |
+    |            └── sqlite_table.py	  
+    |
     │    ├── py_utils    #Utilities folder.                            
     |
     |            └── __init__.py	                        
     |
     |            └── common_utils.py	                        
     |
-    │            └── scraping_utils.py                        
+    │            └── scraping_utils.py                                
+    |
+    │            └── sqlite_utils.py                  
     │   
     │    ├── unlisted_zone    #Scrapy project folder.                            
     |
