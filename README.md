@@ -13,6 +13,7 @@ Parse and extract financial information for stock analysis of companies based on
     - [Background](#-background)
     - [Objectives](#-objectives)
 - [Techncal Preliminaries](#-technical-preliminaries)
+    - [Database Specification](#-database-specification)
     - [Repository Organization](#-repository-organization)
     - [Scraping Flow](#-scraping-flow)
 - [Requisites](#-requisites)
@@ -47,7 +48,7 @@ Parse and extract financial information for stock analysis of companies based on
 <br/><br/>
 
 ## ◘ Technical Preliminaries
-### • Database Specification:
+### • Database Specification
 | Attributes | Data Type | Description |
 |--|--|--|
 | Company | text | Indicates the Name of the company. |
@@ -56,7 +57,7 @@ Parse and extract financial information for stock analysis of companies based on
 | Cost per Lot | text | Price for a single Lot shares |
 
 
-### • Repository Organization:
+### • Repository Organization
 ---------------------------------------------------------
     │
     ├── LICENSE
@@ -111,7 +112,7 @@ Parse and extract financial information for stock analysis of companies based on
 
 <br/>
 
-### • Scraping Flow:
+### • Scraping Flow
 Process flow of the scraping process.
 ![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/flowchart.png)
 
@@ -119,13 +120,13 @@ Process flow of the scraping process.
 
 ## ◘ Requisites
 
-### • Technologies:
+### • Technologies
 1. Python 3.11
 2. PyCharm IDE (2023.1)
 
 <br/>
 
-### • Packages:
+### • Packages
 1. Scrapy==2.10.0
 2. scrapy-proxy-pool==0.1.9
 3. scrapy-user-agents==0.1.1
@@ -135,7 +136,7 @@ Process flow of the scraping process.
 
 <br/>
 
-### • Technical Utilization:
+### • Technical Utilization
 1. XPATH Selectors
 2. User Agents
 3. Automated Pagination
@@ -147,7 +148,7 @@ Process flow of the scraping process.
 
 ## ◘ Installation
 
-### • Project Installation: 
+### • Project Installation
 1. To begin using project, create a virtual environment:
   
 ```bash
@@ -173,7 +174,7 @@ source .scrape/bin/activate
 
 <br/>
 
-### • Getting Started with Scrapy:
+### • Getting Started with Scrapy
 
 * To create a new project, run the following command in the terminal:
   ```py
@@ -201,7 +202,7 @@ scrapy crawl example -o name_of_file.json
 
 <br/>
 
-### • Scrapy Directory:
+### • Scrapy Directory
 Directory Diagram of Scrapy
 ![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/directory_scrapy.png)
 
