@@ -155,7 +155,7 @@ python -m venv /path/to/new/virtual/environment
 2. Activate the Virtual Environment (command can vary on Windows or Linux based systems).
   
 ```bash
-source </path/to/new/virtual/environment>/bin/activate                                                
+source </path/to/new/virtual/environment>/bin/activate                                            
 ```
 
 * For instance:
