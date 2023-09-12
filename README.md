@@ -10,35 +10,33 @@ Parse and extract database for stock analysis of companies based on the [Unliste
 
 ## Introduction
 ---------------------------------------------------------
-UnlistedZone is India’s leading startup to facilitate the buying or selling process of your Unlisted, ESOP, or Pre-IPO Shares. 
-This project aims to extract all the information by utilizing spider bots to index, then fetch and parse the page to obtain 
-relevant information related to the Company such as their names, shares, last traded price, and cost per lot.
+**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools to acquire the database that can be found on the aforementioned website. 
 
 
 ## Project Organization
 ---------------------------------------------------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with various commands
-    ├── README.md     <- The top-level README for developers using this project.
-    ├── scraping_data
-    │   ├── excel          <- Data in xlsx format for better data analysis.
-    │   ├── xml            <- Data in xml format.
-    │   └── json           <- Data in Json format for better utilization.
+    │ 
+    ├── README.md	#The top-level README for developers using this project.
+    │ 
+    ├── datasets
+    │   ├── excel	#XLSX format for better visualization.
     │
-    │   ├── config         <- Contains the scrapy configuration file.
+    │   ├── csv	#CSV format.
     │
+    │   └── json	#Json format for effective utilization.
     │
-    ├── img                 <- Contains project image files.
+    ├── files	#Contains various files related to this repository.
     │   
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         			generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py         <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                 <- Source codes for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
+    ├── requirements.txt	#Allows reproducing the analysis environment, generated using `pip freeze > requirements.txt` command.    
+    │                         			
+    ├── unlisted_zone	#Source codes for this project.
+    │   ├── __init__.py	#Treats the source a Python module.
+    │   
+    │   ├── scrapy.cfg
+    |
     │   ├── spiders         <- Contains scripts that crawls and initiates instructions for data scraping.
     │   │   └── items.py
 	│   │   └── middlewares.py
