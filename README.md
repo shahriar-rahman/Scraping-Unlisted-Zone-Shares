@@ -104,6 +104,9 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 
 ### • Scraping Flow:
 ![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/flowchart.png)
+
+<br/>
+
 Process flow of the scraping process.
 
 <br/><br/>
