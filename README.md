@@ -1,4 +1,4 @@
-# Unlisted Zone Shares Data Extraction
+# Scraping Unlisted Zone Shares
 Parse and extract database for stock analysis of companies based on [Unlisted Zone Shares](https://unlistedzone.com/shares/).
 
 <br/>
@@ -14,6 +14,7 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
     - [Objectives](#-objectives)
 - [Techncal Preliminaries](#-technical-preliminaries)
     - [Repository Organization](#-repository-organization)
+    - [Scraping Flow](#-scraping-flow)
 - [Requisites](#-requisites)
 - [Technologies](#-technologies)
 - [Packages](#-packages)
@@ -21,6 +22,7 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 - [Installation](#-installation)
     - [Project Installation](#-project-installation)
     - [Getting Started with Scrapy](#-getting-started-with-scrapy)
+    - [Scrapy Directory](#-scrapy-directory)
 - [Resources](#-resources)
 - [License](#-license)
 
@@ -46,7 +48,7 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 
 ## ◘ Technical Preliminaries
 
-### • Repository Organization
+### • Repository Organization:
 ---------------------------------------------------------
     │
     ├── LICENSE
@@ -98,6 +100,12 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
     │
     └── 
 --------
+
+<br/>
+
+### • Scraping Flow:
+Process flow of the scraping process.
+![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/flowchart.png)
 
 <br/><br/>
 
@@ -160,9 +168,9 @@ source .scrape/bin/activate
   ```
 
 * To create a new spider, first change the directory:
-```py
-cd my_first_spider
-```
+  ```py
+  cd my_first_spider
+  ```
 
 * Creating a spider:
   ```py
@@ -178,6 +186,13 @@ scrapy crawl example -o name_of_file.csv
 scrapy crawl example -o name_of_file.json
 ```
 
+<br/>
+
+### • Scrapy Directory:
+Directory Diagram of Scrapy
+![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/directory_scrapy.png)
+
+
 <br/><br/>
 
 ## ◘ Resources
@@ -186,7 +201,7 @@ For more details, visit the following links:
 * [Scrapy Github](https://github.com/scrapy/scrapy)
 * [Scrapy PyPi](https://pypi.org/project/Scrapy/)
 * [Pandas](https://pandas.pydata.org/)
-* [Pandas](https://github.com/pandas-dev/pandas)
+* [Pandas Github](https://github.com/pandas-dev/pandas)
 * [Pandas PyPi](https://pypi.org/project/pandas/)
 
 <br/><br/>
