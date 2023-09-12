@@ -6,12 +6,12 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 ![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/analytics.jpg)
 ['Studying the Business Analytics' by Tima Miroshnichenko](https://www.pexels.com/photo/a-business-person-studying-the-business-analytics-7567234/)  |  [Pexels Licensed](https://www.pexels.com/)
 
-<br/>
+<br/><br/>
 
 ## ◘ Introduction
 **Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools to acquire the database that can be found on the aforementioned website. 
 
-<br/>
+<br/><br/>
 
 ## ◘ Repository Organization
 ---------------------------------------------------------
@@ -64,23 +64,30 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
     │
     └── 
 --------
-![alt text](https://github.com/shahriar-rahman/Unlisted-Zone-Shares-Data-Extraction/blob/main/img/unlisted_shares_page.PNG)
 
-## Modules Required:
+<br/><br/>
+
+## ◘ Technologies Requirements:
+• Python 3.11
+
+• PyCharm IDE (2023.1)
+
+<br/>
+
+## ◘ Package Requirements:
 • Python 3.11
 
 • Scrapy 2.8.0
 
-• Applied separate Selectors (.css and xpath) to achieve data extraction
+<br/>
 
-• Data Storage
+## ◘ Technical Utilization:
+• XPATH Selectors
 
-• Pagination
+• Storage in Excel, JSON and CSV format
+
+• Automated Pagination
 
 • User Agents
 
 • Temporary Containers
-
-• DataFrame Manipulation using Pandas
-
-• Data Storage using Excel, JSON and XML format
