@@ -1,4 +1,4 @@
-# Unlisted Zone Shares Data Extraction
+# Scraping Unlisted Zone Shares
 Parse and extract database for stock analysis of companies based on [Unlisted Zone Shares](https://unlistedzone.com/shares/).
 
 <br/>
