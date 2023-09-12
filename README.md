@@ -149,23 +149,23 @@ Process flow of the scraping process.
 1. To begin using project, create a virtual environment:
   
 ```bash
-python -m venv /path/to/new/virtual/environment                                                                        
+python -m venv /path/to/new/virtual/environment                                                                   
 ```
 
 2. Activate the Virtual Environment (command can vary on Windows or Linux based systems).
   
 ```bash
-source </path/to/new/virtual/environment>/bin/activate                                                                        
+source </path/to/new/virtual/environment>/bin/activate                                                                   
 ```
 
 * For instance:
 
 ```bash
-python -m venv .scrape                                                                        
-source .scrape/bin/activate                                                                        
+python -m venv .scrape                                                                   
+source .scrape/bin/activate                                                                   
 ```
 
-3. Install the dependencies: `pip install -r requirements.txt`                                                                        
+3. Install the dependencies: `pip install -r requirements.txt`                                                                   
 
 ---
 
@@ -175,26 +175,26 @@ source .scrape/bin/activate
 
 * To create a new project, run the following command in the terminal:
   ```py
-  scrapy startproject my_first_spider                                                                        
+  scrapy startproject my_first_spider                                                                   
   ```
 
 * To create a new spider, first change the directory:
   ```py
-  cd my_first_spider                                                                        
+  cd my_first_spider                                                                   
   ```
 
 * Creating a spider:
   ```py
-  scrapy genspider example example.com                                                                        
+  scrapy genspider example example.com                                                                   
   ```
 Upon creating a spider, a basic *Template* is generated. The class is built with the data we introduced in the previous command, but the parse method needs to be built by the user.
 
 * Run the spider and export data to CSV or JSON
 
 ```bash
-scrapy crawl example                                                                        
-scrapy crawl example -o name_of_file.csv                                                                        
-scrapy crawl example -o name_of_file.json                                                                        
+scrapy crawl example                                                                   
+scrapy crawl example -o name_of_file.csv                                                                   
+scrapy crawl example -o name_of_file.json                                                                   
 ```
 
 <br/>
