@@ -8,19 +8,46 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 
 <br/><br/>
 
-## ◘ Introduction
-**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools to acquire the database that can be found on the aforementioned website. 
+## ◘ Navigation
+- [Introduction](#-introduction)
+    - [Background](#-background)
+    - [Objectives](#-objectives)
+- [Repository Organization](#-repository-organization)
+- [Techncal Preliminaries](#-techncal-preliminaries)
+- [Repository Organization](#-repository-organization)
+- 
 
 <br/><br/>
 
-## ◘ Repository Organization
----------------------------------------------------------
+## ◘ Introduction
 
+### • Background
+**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools to acquire the database that can be found on the aforementioned website. 
+
+<br/>
+
+### • Objectives
+• Crawl the target site.
+
+• Parse the page.
+
+• Acquire relevant data.
+
+• Store in memory.
+
+<br/><br/>
+
+## ◘ Technical Preliminaries
+
+### • Repository Organization
+---------------------------------------------------------
+    │
     ├── LICENSE
     │ 
     ├── README.md	#The top-level README for developers using this project.
     │ 
     ├── datasets
+    |
     │   ├── excel	#XLSX format for better visualization.
     │
     │   ├── csv	#CSV format.
@@ -67,27 +94,27 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 
 <br/><br/>
 
-## ◘ Technologies Requirements:
-• Python 3.11
+## ◘ Requirements
 
-• PyCharm IDE (2023.1)
-
-<br/>
-
-## ◘ Package Requirements:
-• Python 3.11
-
-• Scrapy 2.8.0
+### • Technologies Requirements:
+1. Python 3.11
+2. PyCharm IDE (2023.1)
 
 <br/>
 
-## ◘ Technical Utilization:
-• XPATH Selectors
+### • Package Requirements:
+1. Python 3.11
+2. Scrapy 2.8.0
 
-• Storage in Excel, JSON and CSV format
+<br/>
 
-• Automated Pagination
+### • Technical Utilization:
+1. XPATH Selectors
+2. User Agents
+3. Automated Pagination
+4. Temporary Containers
+5. Storage in Excel, JSON and CSV format
 
-• User Agents
+<br/>
 
-• Temporary Containers
+
