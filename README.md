@@ -39,8 +39,8 @@ Parse and extract financial information for stock analysis of companies based on
 ### • Objectives
 * Crawl the target site.
 * Parse the page.
-* Acquire relevant data.
-* Store in database and memory.
+* Scrape relevant data.
+* Store inside a database and memory.
 
 <br/><br/>
 
