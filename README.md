@@ -1,8 +1,12 @@
 # Unlisted Zone Shares Data Extraction
-This project focuses on the crawling and scraping aspects of extracting data tables from UnlistedZone.com.
+Parse and extract database for stock analysis of companies based on the [Unlisted Zone Shares](https://unlistedzone.com/shares/) website.
+
+<br/>
 
 ![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/analytics.jpg)
 [Studying the Business Analytics Photo by Tima Miroshnichenko](https://www.pexels.com/photo/a-business-person-studying-the-business-analytics-7567234/)  |  [Pexels Licensed](https://www.pexels.com/)
+
+<br/>
 
 ## Introduction
 ---------------------------------------------------------
