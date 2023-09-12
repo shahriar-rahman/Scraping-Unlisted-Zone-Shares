@@ -149,13 +149,13 @@ Process flow of the scraping process.
 1. To begin using project, create a virtual environment:
   
 ```bash
-python -m venv /path/to/new/virtual/environment                                                              
+python -m venv /path/to/new/virtual/environment                                                       
 ```
 
 2. Activate the Virtual Environment (command can vary on Windows or Linux based systems).
   
 ```bash
-source </path/to/new/virtual/environment>/bin/activate                                                              
+source </path/to/new/virtual/environment>/bin/activate                                                       
 ```
 
 * For instance:
@@ -192,9 +192,9 @@ Upon creating a spider, a basic *Template* is generated. The class is built with
 * Run the spider and export data to CSV or JSON
 
 ```bash
-scrapy crawl example                                                              
-scrapy crawl example -o name_of_file.csv                                                              
-scrapy crawl example -o name_of_file.json                                                              
+scrapy crawl example                                                           
+scrapy crawl example -o name_of_file.csv                                                           
+scrapy crawl example -o name_of_file.json                                                           
 ```
 
 <br/>
