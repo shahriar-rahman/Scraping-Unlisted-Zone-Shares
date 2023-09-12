@@ -2,4 +2,4 @@ Scrapy==2.10.0
 scrapy-proxy-pool==0.1.9
 scrapy-user-agents==0.1.1
 Scrapy3==1.0.1
-pandas==2.0.0
+pandas==2.0.0 
