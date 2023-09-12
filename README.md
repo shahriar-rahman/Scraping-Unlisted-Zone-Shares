@@ -201,7 +201,7 @@ For more details, visit the following links:
 * [Scrapy Github](https://github.com/scrapy/scrapy)
 * [Scrapy PyPi](https://pypi.org/project/Scrapy/)
 * [Pandas](https://pandas.pydata.org/)
-* [Pandas](https://github.com/pandas-dev/pandas)
+* [Pandas Github](https://github.com/pandas-dev/pandas)
 * [Pandas PyPi](https://pypi.org/project/pandas/)
 
 <br/><br/>
