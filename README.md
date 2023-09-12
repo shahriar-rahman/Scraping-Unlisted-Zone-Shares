@@ -58,52 +58,52 @@ Parse and extract financial information for stock analysis of companies based on
 ### • Repository Organization
 ---------------------------------------------------------
     │
-    ├── LICENSE
+    ├── LICENSE                        
     │ 
-    ├── README.md	#The top-level README for developers using this project.
+    ├── README.md	#The top-level README for developers using this project.                        
     │ 
-    ├── datasets
+    ├── datasets                                                
     |
-    │   ├── excel	#XLSX format for better visualization.
+    │   ├── excel	#XLSX format for better visualization.                        
     │
-    │   ├── csv	#CSV format.
+    │   ├── csv	#CSV format.                        
     │
-    │   └── json	#Json format for effective utilization.
+    │   └── json	#Json format for effective utilization.                        
     │
-    ├── files	#Contains various files related to this repository.
+    ├── files	#Contains various files related to this repository.                        
     │   
     │
-    ├── requirements.txt	#Allows reproducing the analysis environment, generated using `pip freeze > requirements.txt` command.    
+    ├── requirements.txt	#Allows reproducing the analysis environment, generated using `pip freeze > requirements.txt` command.                        
     │                         			
-    ├── unlisted_zone	#Source codes for this project.
+    ├── unlisted_zone	#Source codes for this project.                        
     |
-    │    ├── __init__.py	
+    │    ├── __init__.py	                        
     │   
-    │    ├── scrapy.cfg    #Configuration settings for Scrapy.
+    │    ├── scrapy.cfg    #Configuration settings for Scrapy.                        
     |
-    │    ├── py_utils    #Utilities folder.    
+    │    ├── py_utils    #Utilities folder.                            
     |
-    |            └── __init__.py	
+    |            └── __init__.py	                        
     |
-    |            └── common_utils.py	
+    |            └── common_utils.py	                        
     |
-    │            └── scraping_utils.py
+    │            └── scraping_utils.py                        
     │   
-    │    ├── unlisted_zone    #Scrapy project folder.    
+    │    ├── unlisted_zone    #Scrapy project folder.                            
     |
-    |            └── spiders	
+    |            └── spiders	                        
     |
-    |                    └── __init__.py
+    |                    └── __init__.py                        
     |
-    |                    └── crawler_bot.py
+    |                    └── crawler_bot.py                        
     |
-    │            └── items.py
+    │            └── items.py                        
     │   
-    │            └── middlewares.py
+    │            └── middlewares.py                        
     │   
-    │            └── pipelines.py
+    │            └── pipelines.py                        
     │   
-    │            └── settings.py
+    │            └── settings.py                        
     │
     └── 
 --------
