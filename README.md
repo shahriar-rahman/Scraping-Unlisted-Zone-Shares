@@ -1,5 +1,5 @@
 # Scraping Unlisted Zone Shares
-Parse and extract database for stock analysis of companies based on [Unlisted Zone Shares](https://unlistedzone.com/shares/).
+Parse and extract financial information for stock analysis of companies based on the [Unlisted Zone Shares](https://unlistedzone.com/shares/).
 
 <br/>
 
@@ -31,7 +31,7 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 ## ◘ Introduction
 
 ### • Background
-**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools to acquire the database that can be found on the aforementioned website. 
+**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools to acquire the database that can be found on the aforementioned website and store it inside a database table, as well as as other memory-based formats.
 
 <br/>
 
@@ -42,11 +42,19 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 
 • Acquire relevant data.
 
-• Store in memory.
+• Store in database and memory.
 
 <br/><br/>
 
 ## ◘ Technical Preliminaries
+### • Database Specification:
+| Unlisted Shares | Data Type | Description |
+|--|--|--|
+| Company | text | Indicates the Name of the company. |
+| Lot Size | text | Amount of shares for a lot. |
+| Last Price | text | Price of the trade made the last time. |
+| Cost per Lot | text | Price for a single Lot shares |
+
 
 ### • Repository Organization:
 ---------------------------------------------------------
