@@ -38,11 +38,8 @@ Parse and extract financial information for stock analysis of companies based on
 
 ### • Objectives
 • Crawl the target site.
-
 • Parse the page.
-
 • Acquire relevant data.
-
 • Store in database and memory.
 
 <br/><br/>
@@ -56,6 +53,7 @@ Parse and extract financial information for stock analysis of companies based on
 | Last Price | text | Price of the trade made the last time. |
 | Cost per Lot | text | Price for a single Lot shares |
 
+<br/>
 
 ### • Repository Organization
 ---------------------------------------------------------
@@ -147,7 +145,6 @@ Process flow of the scraping process.
 <br/>
 
 ## ◘ Installation
-
 ### • Project Installation
 1. To begin using project, create a virtual environment:
   
