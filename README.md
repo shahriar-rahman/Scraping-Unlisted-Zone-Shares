@@ -1,4 +1,4 @@
-# Scraping Unlisted Zone Shares
+# Unlisted Zone Shares
 Parse and extract financial information for stock analysis of companies based on the [Unlisted Zone Shares](https://unlistedzone.com/shares/).
 
 <br/>
