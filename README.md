@@ -15,7 +15,10 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 - [Repository Organization](#-repository-organization)
 - [Techncal Preliminaries](#-techncal-preliminaries)
 - [Repository Organization](#-repository-organization)
-- 
+- [Requisites](#-requisites)
+- [Technologies](#-technologies)
+- [Package](#-package)
+- [Technical Utilization](#-technical-utilization)
 
 <br/><br/>
 
@@ -94,15 +97,15 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 
 <br/><br/>
 
-## ◘ Requirements
+## ◘ Requisites
 
-### • Technologies Requirements:
+### • Technologies:
 1. Python 3.11
 2. PyCharm IDE (2023.1)
 
 <br/>
 
-### • Package Requirements:
+### • Packages:
 1. Python 3.11
 2. Scrapy 2.8.0
 
