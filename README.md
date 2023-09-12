@@ -51,7 +51,7 @@ Parse and extract financial information for stock analysis of companies based on
 | Company | text | Indicates the Name of the company. |
 | Lot Size | text | Amount of shares for a lot. |
 | Last Price | text | Price of the trade made the last time. |
-| Cost per Lot | text | Price for a single Lot shares |
+| Cost per Lot | text | Price for a single Lot share. |
 
 <br/>
 
