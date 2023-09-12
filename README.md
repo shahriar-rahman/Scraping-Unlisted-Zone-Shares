@@ -169,7 +169,7 @@ source .scrape/bin/activate
 
 * To create a new spider, first change the directory:
 ```py
-cd my_first_spider
+  cd my_first_spider
 ```
 
 * Creating a spider:
