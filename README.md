@@ -22,6 +22,7 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 - [Installation](#-installation)
     - [Project Installation](#-project-installation)
     - [Getting Started with Scrapy](#-getting-started-with-scrapy)
+    - [Scrapy Directory](#-scrapy-directory)
 - [Resources](#-resources)
 - [License](#-license)
 
@@ -187,6 +188,17 @@ scrapy crawl example
 scrapy crawl example -o name_of_file.csv
 scrapy crawl example -o name_of_file.json
 ```
+
+<br/>
+
+### • Scrapy Directory:
+
+<br/>
+
+![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/directory_scrapy.png)
+
+Directory Diagram of Scrapy
+
 
 <br/><br/>
 
