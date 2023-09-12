@@ -8,12 +8,12 @@ Parse and extract database for stock analysis of companies based on the [Unliste
 
 <br/>
 
-## Introduction
----------------------------------------------------------
+## ◘ Introduction
 **Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools to acquire the database that can be found on the aforementioned website. 
 
+<br/>
 
-## Project Organization
+## ◘ Repository Organization
 ---------------------------------------------------------
 
     ├── LICENSE
@@ -35,13 +35,14 @@ Parse and extract database for stock analysis of companies based on the [Unliste
     ├── unlisted_zone	#Source codes for this project.
     │   ├── __init__.py	#Treats the source a Python module.
     │   
-    │   ├── scrapy.cfg
+    │   ├── scrapy.cfg	#Configuration setings for the scrapy module
     |
-    │   ├── spiders         <- Contains scripts that crawls and initiates instructions for data scraping.
-    │   │   └── items.py
-	│   │   └── middlewares.py
-	│   │   └── pipelines.py
-	│   │   └── settings.py
+    │   ├── spiders	#Crawlers initiating instructions for the scraping procedure.
+    │		└── items.py
+    │   
+    │		└── middlewares.py
+    │		└── pipelines.py
+    │		└── settings.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
