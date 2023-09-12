@@ -104,11 +104,8 @@ Parse and extract database for stock analysis of companies based on [Unlisted Zo
 <br/>
 
 ### • Scraping Flow:
-![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/flowchart.png)
-
-<br/>
-
 Process flow of the scraping process.
+![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/flowchart.png)
 
 <br/><br/>
 
@@ -192,12 +189,8 @@ scrapy crawl example -o name_of_file.json
 <br/>
 
 ### • Scrapy Directory:
-
-<br/>
-
-![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/directory_scrapy.png)
-
 Directory Diagram of Scrapy
+![alt text](https://github.com/shahriar-rahman/Scraping-Unlisted-Zone-Shares/blob/main/files/directory_scrapy.png)
 
 
 <br/><br/>
