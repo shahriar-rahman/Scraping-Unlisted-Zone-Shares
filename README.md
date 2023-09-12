@@ -31,7 +31,7 @@ Parse and extract financial information for stock analysis of companies based on
 ## ◘ Introduction
 
 ### • Background
-**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools to acquire the database that can be found on the aforementioned website and store it inside a database table, as well as as other memory-based formats.
+**Unlisted Shares** is one of the leading startup to facilitate in India where transactions of purchase and selling a myriad of Unlisted, ESOP, or Pre-IPO Shares. This study aims to utilize crawleing tools, by utilizing Scrapy, to acquire the data that can be found on the aforementioned website and store it inside a database table, using Sqlite3, as well as as other memory-based formats using the Pandas dataframe. 
 
 <br/>
 
@@ -126,8 +126,12 @@ Process flow of the scraping process.
 <br/>
 
 ### • Packages:
-1. Python 3.11
-2. Scrapy 2.8.0
+1. Scrapy==2.10.0
+2. scrapy-proxy-pool==0.1.9
+3. scrapy-user-agents==0.1.1
+4. Scrapy3==1.0.1
+5. db-sqlite3==0.0.1
+6. pandas==2.0.0 
 
 <br/>
 
@@ -136,7 +140,8 @@ Process flow of the scraping process.
 2. User Agents
 3. Automated Pagination
 4. Temporary Containers
-5. Storage in Excel, JSON and CSV format
+5. SQLite for Database storage
+6. Storage in Excel, JSON and CSV format
 
 <br/>
 
@@ -208,6 +213,9 @@ For more details, visit the following links:
 * [Scrapy](https://scrapy.org/)
 * [Scrapy Github](https://github.com/scrapy/scrapy)
 * [Scrapy PyPi](https://pypi.org/project/Scrapy/)
+* [sqlite3](https://www.sqlite.org/index.html)
+* [sqlite3 Python](https://docs.python.org/3/library/sqlite3.html)
+* [sqlite3 Github](https://github.com/sqlite/sqlite)
 * [Pandas](https://pandas.pydata.org/)
 * [Pandas Github](https://github.com/pandas-dev/pandas)
 * [Pandas PyPi](https://pypi.org/project/pandas/)
