@@ -33,18 +33,32 @@ Parse and extract database for stock analysis of companies based on the [Unliste
     ├── requirements.txt	#Allows reproducing the analysis environment, generated using `pip freeze > requirements.txt` command.    
     │                         			
     ├── unlisted_zone	#Source codes for this project.
-    │   ├── __init__.py	#Treats the source a Python module.
+    │    ├── __init__.py	
     │   
-    │   ├── scrapy.cfg	#Configuration setings for the scrapy module
+    │    ├── scrapy.cfg    #Configuration settings for Scrapy.
     |
-    │   ├── spiders	#Crawlers initiating instructions for the scraping procedure.
-    │		└── items.py
+    │    ├── py_utils    #Utilities folder.
+    |            └── __init__.py	
+    |
+    |            └── common_utils.py	
+    |
+    │            └── scraping_utils.py
+    │   
+    │    ├── unlisted_zone    #Scrapy project folder.
+    |            └── spiders	
+    |                    └── __init__.py
+    |
+    |                    └── crawler_bot.py
+    |
+    │            └── items.py
     │   
-    │		└── middlewares.py
-    │		└── pipelines.py
-    │		└── settings.py
+    │            └── middlewares.py
+    │   
+    │            └── pipelines.py
+    │   
+    │            └── settings.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── 
 
 
 --------
